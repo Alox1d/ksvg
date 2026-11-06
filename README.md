@@ -124,7 +124,7 @@ fun codeMonkey() {
      }
 
      FileWriter("build/tmp/codeMonkey.svg").use {
-         svg.render(it, SVG.RenderMode.FILE)
+         svg.render(it, RenderMode.FILE)
      }
     }
 
